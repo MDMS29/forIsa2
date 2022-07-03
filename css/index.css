@@ -1,0 +1,83 @@
+p, h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    border-radius: 20px;
+    padding: 30px;
+    padding-top: 28px;
+    margin-top: 70px;
+    background-color: rgb(91, 146, 192);
+    box-shadow: 0px 0px 12px 7px rgba(0, 0, 0, 0.25)
+}
+
+.form-control:focus{
+    color:#495057;
+    background-color:#fff;
+    border-color:#80bdff;
+    outline: 4px;
+    box-shadow:0 0 0 .2rem rgba(0,123,255,.25)
+}
+
+.form-control{
+    display:block;
+    width:90%;
+    padding:.375rem .75rem;
+    font-size:16px;
+    color:#495057;
+    background-color:#fff;
+    border:1px solid #ced4da;
+    border-radius: 8px;
+    transition:border-color;
+}
+
+input{
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+input[type='button']{
+    transition: 1s;
+    background-color: rgb(177, 99, 222);
+    width: calc(80% - 20px);
+    color: #fff;
+    margin: 0 10%;
+    margin-top: 22px;
+    border: none;
+    border-radius: 10px;
+}
+input[type='button']:hover{
+    transition: 1s;
+    background-color: rgb(106, 8, 162);
+    cursor: pointer;
+}
+
+footer {
+    text-align: center; 
+    margin: 20px;
+}
+
+/*Validacion del Formulario*/
+.error{
+    background-color:rgb(185,0,0);
+    text-align: center;
+    padding: 8px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+p.error{ font-size: 15px;}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
